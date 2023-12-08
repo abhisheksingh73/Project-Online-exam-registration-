@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    color: rgb(255, 0, 43);
+    font-style: italic;
+    text-shadow: 4px 3px pink ;
+}
+.rules {
+    line-height: 20px;
+}
+body {
+    border: 7px solid grey;
+    
+}

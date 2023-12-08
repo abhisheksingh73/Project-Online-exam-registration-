@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION PAGE</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <form>
+        <div class="head">
+            <h1 class="div_head">On Line Examination</h1>
+        </div>
+        <div class="reg_head">
+            <div>REGISTRATION</div>
+        </div>
+        <div class="nav_div"> 
+            <div class="navbar">
+                <a href="#">Registration</a>
+                <br>
+                <a href="examrule.html" target="_blank">Examination rules</a>
+                <br>
+                <a href="#">Result</a>
+                <br>
+                <a href="#">Schedule</href>
+                <br>
+                <a href="objective.html" target="_blank">Objective</a>
+                <br>
+                <a href="subjective.html" target="_blank">Subjective</a>
+                <br>
+                <a href="#">LogOut<img src="logout image.jpeg" width="25px" height="20px"></a>
+            </div>      
+        </div>
+        <div id="details">
+            <div class="input" class="bx1">
+                <label>Enrollment No: </label>
+                <input type="text" placeholder="Enter Your Enrolled No" id="enrollno" required>
+            </div>
+            <div class="input">
+                <label>First Name: </label>
+                <input type="text" placeholder="Enter your First Name" id="fname" required>
+            </div>
+            <div class="input">
+                <label>Last Name: </label>
+                <input type="text" id="lname" placeholder="Enter your Last Name" required>
+            </div>
+            <div class="input">
+                <label>Program</label>
+                <select>
+                    <option>BCA</option>
+                    <option>B.TECH</option>
+                    <ottion>M.TECH</option>
+                    <option>MCA</option>
+                    <option>Diploma</option>
+                    <option>PHARMACY</option>
+                </select>
+            </div>
+            <div class="input">
+                <label>Coure:  </label>
+                <select>
+                    <option>Computer Fundamental</option>
+                    <option>BTech CSE</option>
+                    <option>MTech CSE</option>
+                    <option>BTech CE(Civil Engineering)</option>
+                    <option>MTech CE(Civil Engineering)</option>
+                    <option>AI & ML</option>
+                    <option>GNM</option>
+                </select>
+            </div>
+            <div class="input">
+                <label>Study Center Code: </label>
+                <input type="number" id="sc_code" placeholder="Center code(required)">
+            </div>
+            <div class="input">
+                <label>Password:</label>
+                <input type="password" id="pass" placeholder="NEW PASSWORD">
+            </div>
+            <div class="input">
+                <label>Confirm Password: </label>
+                <input type="password" id="cpass" placeholder="CONFIRM PASSWORD"> 
+            </div>        
+            <div class="button">
+                <button>Create</button>
+            </div>
+            <div class="button2">
+                <button>Refresh</button>
+            </div> 
+        </div>
+        <div class="images">
+            <img class="img" src="register image.jpeg" alt="Registration image">
+            <img class="img" src="writing exam image.jpeg" alt="writingexam image">
+        </div>
+    </form>
+</body>
+</html>
